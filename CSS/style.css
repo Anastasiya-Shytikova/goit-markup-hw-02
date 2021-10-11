@@ -1,0 +1,240 @@
+:root {
+  --color-link: #2196f3;
+  --text: #212121;
+  --color-text: #ffffff;
+  --color-p: #757575;
+  --font-family: Roboto;
+  --font-size: 14px;
+  --font-style: normal;
+  --font-logo: Raleway;
+  --font-size-logo: 26px;
+}
+.body-index {
+  font-family: "Roboto", "Raleway", "Arial", sans-serif;
+}
+
+.body-portfolio {
+  color: #e5e5e5;
+  font-family: "Roboto", "Raleway", "Arial", sans-serif;
+}
+
+.header {
+  background-color: var(--color-text);
+}
+
+/* WebStudio */
+.logo {
+  color: var(--color-link);
+  font-family: var(--font-logo);
+  font-size: var(--font-size-logo);
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.name {
+  color: #000000;
+  font-family: var(--font-logo);
+  font-size: var(--font-size-logo);
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.name-footer {
+  color: var(--color-text);
+  font-family: var(--font-logo);
+  font-size: var(--font-size-logo);
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.point-nav {
+  color: var(--text);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-style: var(--font-style);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.point-nav:focus,
+.point-nav:hover {
+  color: var(--color-link);
+}
+.point-nav.active {
+  color: var(--color-link);
+}
+.address {
+  color: var(--color-p);
+  font-family: var(--font-family);
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  font-style: var(--font-style);
+  font-size: var(--font-size);
+}
+.address:focus,
+.address:hover {
+  color: var(--color-link);
+}
+
+.filter button:hover,
+.filter button:focus {
+  color: var(--color-text);
+  background-color: var(--color-link);
+}
+
+.filter button {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: var(--font-style);
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--text);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.filter button.collor {
+  background-color: var(--color-link);
+}
+
+.invisible {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: var(--text);
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  color: var(--color-p);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: var(--font-style);
+  font-weight: 400;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+}
+.address-footer {
+  color: var(--color-text);
+  opacity: 60%;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-style: var(--font-style);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.address-footer:focus,
+.address-footer:hover {
+  color: var(--color-link);
+}
+.color-footer {
+  background-color: #2f303a;
+}
+.address-map:focus,
+.address-map:hover {
+  color: var(--color-link);
+}
+.address-map {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-style: var(--font-style);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+.button {
+  background-color: #188ce8;
+  color: var(--color-text);
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  color: var(--color-text);
+  background-color: var(--color-link);
+}
+.hero-section {
+  background-color: #2f303a;
+  text-align: center;
+}
+.h1 {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 44px;
+  font-style: var(--font-style);
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.advantage p {
+  color: var(--color-p);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-style: var(--font-style);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.advantage h3 {
+  color: var(--text);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team h2,
+.work {
+  color: var(--text);
+
+  font-size: 36px;
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team h3 {
+  color: var(--text);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: var(--font-style);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team p {
+  color: var(--color-p);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: var(--font-style);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: #f5f4fa;
+}
